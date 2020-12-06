@@ -1,8 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { notStrictEqual } = require('assert');
-const e = require('express');
 const app = express();
 
 app.use(cors())
